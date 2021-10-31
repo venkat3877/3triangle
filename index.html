@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Triangle</title>
+    <style>
+      body {
+        background-color: grey;
+      }
+      #first {
+        height: 0;
+        width: 0;
+        margin: 125px 550px;
+        position: absolute;
+        z-index: 1;
+        border: 80px solid transparent;
+        border-bottom: 80px solid #ff0000;
+      }
+      #second {
+        height: 0;
+        width: 0;
+        position: absolute;
+        margin: 125px 550px;
+        top: 9%;
+        z-index: -1;
+        border: 80px solid transparent;
+        border-bottom: 80px solid #00ff00;
+      }
+      #third {
+        height: 0;
+        width: 0;
+        position: absolute;
+        margin: 125px 550px;
+        top: 16%;
+        z-index: -2;
+        border: 80px solid transparent;
+        border-bottom: 80px solid #0000ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="first"></div>
+    <div id="second"></div>
+    <div id="third"></div>
+  </body>
+</html>
